@@ -1,24 +1,60 @@
-# README
+# Hello World React-Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is an application that uses React-Redux as the frontend framework and Ruby on Rails as the backend framework. The connection is made possible through the `react-rails` and `webpacker` gem.
+---
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- React
+- Redux
+- Ruby
+- Ruby on Rails
+- Webpack
+- Babel
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+```
+git clone git@github.com:Gambit142/RecipeApp.git
+```
 
-* Database initialization
+and then run
 
-* How to run the test suite
+```
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+followed by 
 
-* Deployment instructions
+```
+npm install
+```
 
-* ...
+## Development
+
+start of by creating the database and running migrations using
+`bin/rails db:setup`
+
+load data in the seed by running:
+`rails db:seed`
+
+to start the server run `bin/rails s`
+
+
+## Authors
+👤 **Francis Ugorji**
+
+- GitHub: [@Gambit142](https://github.com/MrBrN197)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/francis-ugorji/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
