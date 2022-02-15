@@ -43,7 +43,7 @@ load data in the seed by running:
 to start the server run `bin/rails s`
 
 
-## Authors
+## Author
 👤 **Francis Ugorji**
 
 - GitHub: [@Gambit142](https://github.com/MrBrN197)
