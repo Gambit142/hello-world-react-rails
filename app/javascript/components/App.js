@@ -10,7 +10,7 @@ const App = () => (
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<div>Hello Nigeria</div>} />
+          <Route path="/" element={<div>Hello World!</div>} />
           <Route path="/greeting" element={<Greeting />} />
         </Routes>
       </Router>
